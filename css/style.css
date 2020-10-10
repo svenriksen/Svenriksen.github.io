@@ -24,26 +24,9 @@
     transition: background-color 500ms linear;
 }
 
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-}
-
-.videoWrapper iframe {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-}
-
-@media only screen and (max-width: 700px) {
-    .videoWrapper iframe {
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        width: 50%;
-        height: 50%;
-    }
+.embed-responsive {
+    width: 65% !important;
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
 }
