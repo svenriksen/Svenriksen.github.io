@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -11,12 +10,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     
-
 }
-
-html, body {height: 100%; }
-
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -27,28 +21,8 @@ html, body {height: 100%; }
 header {
     background-color: #D6B7B5;
     height: calc(100vh - 74px);
-    position: relative;
 }
 
-.custom-shape-divider-bottom-1601132121 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1601132121 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 52px;
-}
-
-.custom-shape-divider-bottom-1601132121 .shape-fill {
-    fill: #FFFFFF;
-}
 .navbar-brand {
     font-size: 32px !important;
 }
@@ -125,60 +99,13 @@ header {
     border-bottom: 2px solid black;
 }
 
-.navbar-nav .custom-li a li {
+.navbar-nav .custom-li li {
 
     margin: 10%;
-    margin-left: 20%;
-    transition: 700ms ease-out;
 }
 
-.navbar-nav .custom-li a li h3{
+.navbar-nav .custom-li li a{
     color: black;
-}
-
-.navbar-nav .custom-li a li {
-
-    margin: 10%;
-    margin-left: 20%;
-    transition: 700ms ease-out;
-
-}
-
-.navbar-nav .custom-li:hover{
-
-    background-color: #d6d2c4;
-    transition: 700ms;
-}
-
-/********separate******/
-.custom-navlink {
-    background-color: #968c83;
-    padding: 0 !important;
-}
-
-.navbar-nav .custom-li-header {
-    border-bottom: 2px solid black;
-}
-
-.navbar-nav .custom-li-header li {
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.navbar-nav .custom-li-header li h2{
-    color: white;
-    text-align: center; 
-    font-weight: 600; 
-    font-size: 50px !important;
-}
-
-.navbar-nav {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-
 }
 
 .hidden { display: none !important; }
@@ -224,16 +151,10 @@ header {
 
 
 .navbar-nav.active {
-
     right: 0%;
     display: flex !important;
     margin: 0 !important;
     padding: 0 !important;
-
-}
-
-.navbar-nav.active .custom-li a li{
-    margin-left: 10%;
 }
 
 
@@ -243,6 +164,10 @@ header {
     border: none !important;
     outline:none !important;
 }
+
+
+
+
 
 
 /***********************************BLOG POST******************************/
@@ -306,58 +231,17 @@ header {
     color: white !important;
 }
 
-/***********************************FOOTER******************************/
 
-.end-footer {
+/**********************************adnub section*********************************/
 
-    margin-top: 100px;
-    background-color: black;
-    height: auto;
-    margin-bottom: 0;
-
-}
-
-.h1-footer {
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    padding: 50px 0 0px 0;
-    
-}
-
-.main-footer {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin: 0;
-    margin-top: 30px;
-    padding: 50px 0 50px 0;
-    text-transform: uppercase;
-}
-
-.line-text {
-    text-align: center;
-    position: relative;
- }
- 
- .line-text:before {
-    content: "";
-    width: 100%;
-    height: 1px;
+.edit-icon {
+    /*visibility: hidden;*/
     position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    background-color: var(--gray);
- }
- 
- .line-text span {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    position: relative;
-    z-index: 2;
-    padding: 1rem;
-    font-weight: 600;
- }
-      
+    right: 0%;
+
+}
+
+.edit-icon:hover {
+    visibility: visible;
+}
+
