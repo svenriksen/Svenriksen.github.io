@@ -119,7 +119,8 @@ header {
     }
 
 }
-
+.navbar-nav {
+}
 
 .navbar-nav .custom-li {
     border-bottom: 2px solid black;
